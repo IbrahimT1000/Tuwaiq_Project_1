@@ -1,12 +1,16 @@
 # Tuwaiq_Project_1
 # Movies App
+## Description
+The App is about ,Movies App any one can watch movies and also can create account,  and user can login  in his account 
 ## Materials
-* Html
-* css
-* jquery
-* Html
-* css
-* jquery
+* HTML
+* CSS
+* JS
+* JQuery
+* local storage
+* Bootstrap
+
+
  
 
  
