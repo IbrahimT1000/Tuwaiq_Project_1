@@ -1,7 +1,5 @@
 # Tuwaiq_Project_1
 # Movies App
-# Description
-  
 # Materials
 * Html
 * css
@@ -9,7 +7,6 @@
 * Html
 * css
 * jquery
-
  
 
  
