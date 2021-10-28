@@ -15,11 +15,11 @@ $('#login').click(function () {
       console.log('Current User: ' + currentUser);
 
    }
-
    if (currentUser && currentUser.UName === userName && currentUser.UPw === pwd) {
       swal("Good job!", " Wellcome!");
-      $('#SignUp').hide()
       window.location.href = "home.html";
+      $("#SignUp").css("display", "none");
+      $("#password").val();
    } else {
       sweetAlert('Oops...', 'incorrect information!', 'error');
    }

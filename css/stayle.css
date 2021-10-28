@@ -33,14 +33,27 @@ body {
 }
 
 .btn-bg {
-    background-color: #7B241C;
-    color: white;
-    border: 1px solid white;
+    background: #44c5ee;
+    padding: 10px 28px;
+    border: 2px solid #44c5ee;
+    color: #fff;
+    border-radius: 50px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    -webkit-transition: 0.5s all;
+    transition: 0.5s all;
+    box-shadow: 0px 0px 60px 0px rgba(68, 197, 238, 0.6);
+    outline: none !important
+}
+.btn-bg:hover,
+.btn-bg:focus,
+.btn-bg:active {
+    background: #fff;
+    color: #496174
 }
 
 .btn {
-    margin: 10px;
-    font-size: large;
+    margin: 5px;
 
 }
 
@@ -91,8 +104,9 @@ a {
     padding: 2px;
     border-radius: 25px;
 }
-
-
+.figure:hover{
+    transform: scale(0.9);
+}
 
 /* ////////////////////////////////////////// */
 .card {
@@ -122,6 +136,9 @@ p {
     font-size: 20px;
     color: rgb(255, 255, 255);
 }
+
+
+
 /* ///////////////////////////////////////////////////////////// */
 
 

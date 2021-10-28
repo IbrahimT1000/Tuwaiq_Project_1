@@ -186,10 +186,10 @@ $('#Register').click(function () {
 });
 
 $(document).ready(function(){
-   $('#search').on("keyp",function(){
-      let value=$(this).val().toLowerCase();
-      $('#figure-caption').filter(function(){
-         $(this).toggle($(this).text().toLowerCase().indexof(value) > 1);
-      })
-   })
-});
+   $("#search").on("keyup", function() {
+     var value = $(this).val().toLowerCase();
+     $(".figure").filter(function() {
+       $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+     });
+   });
+ });
