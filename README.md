@@ -10,7 +10,7 @@ The App is about ,Movies App any one can watch movies and also can create accoun
 * local storage
 * Bootstrap
 ## Images
-![Test Image 1](../img/app1)
+![imagename](img/app1.png)
 
  
 
